@@ -13,17 +13,16 @@ BASE_MODAL_LINKS_DICT = {'text' : "INICIAR SESSION", 'url' : "login.html" }
 BASE_MODAL_LINKS_LIST = [ BASE_MODAL_LINKS_DICT ]
 
 BASE = {
-        'BASE_TITLE' : "INVERMEX",
-        'BASE_MAIN_TITLE' : "INVIERTE CON LOS MEJORES",
+        'BASE_TITLE' : "cuceipark!",
+        'BASE_MAIN_TITLE' : "ENCUENTRA SIEMPRE UN LUGAR",
         'BASE_MODAL_LINKS_LIST' : BASE_MODAL_LINKS_LIST,
-        'BASE_MODAL_TITLE' : "INVIERTE CON LOS MEJORES",
-        'BASE_MODAL_CLOSE' : "MENU PRINCIPAL",
-        'BASE_FOOTER_TITLE' : "INVERMEX",
-        'BASE_FOOTER_SUBTITLE' : "INVIERTE CON LOS MEJORES",
+        'BASE_MODAL_TITLE' : "cuceipark!",
+        'BASE_MODAL_CLOSE' : "menu principal",
+        'BASE_FOOTER_TITLE' : "cuceipark!",
+        'BASE_FOOTER_SUBTITLE' : "",
         'BASE_FOOTER_MEDIUM' : "REGRESAR ARRIBA",
-        'BASE_FOOTER_LAST' : "ALVARREZ RODRIGUEZ JOSHUA ANTONIO / HINOJOSA PACHECO JAAZIEL / RUIZ GARCIA FELIPE DE JESUS"
+        'BASE_FOOTER_LAST' : "cucei open source community"
 }
-
 
 def index(request):
 	t = get_template('index.html').render(BASE)
